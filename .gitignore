@@ -1,0 +1,62 @@
+# Ignore node modules (for JavaScript/Node.js projects)
+node_modules/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore compiled code and binaries
+*.class
+*.o
+*.so
+*.out
+*.exe
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore build files and dependencies
+dist/
+build/
+target/
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore images and media files (if not required in the repo)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mp3
+
+# Ignore specific project-specific files
+config/settings.json
+secrets/
+    
